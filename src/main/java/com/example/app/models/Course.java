@@ -26,15 +26,25 @@ public class Course {
     }
 
     public List<Student> getStudents() {
-        return students;
+        return new ArrayList<>(students); // Return copy to avoid external mutation
     }
 
     public List<Assignment> getAssignments() {
-        return assignments;
+        return new ArrayList<>(assignments);
     }
 
     public void addStudent(Student student) {
         students.add(student);
+    }
+
+    public void enrollStudent(Student student) {
+        if (!isStudentEnrolled(student)) {
+            students.add(student);
+        }
+    }
+
+    public boolean isStudentEnrolled(Student student) {
+        return students.contains(student);
     }
 
     public void removeStudent(Student student) {

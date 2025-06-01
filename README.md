@@ -17,6 +17,10 @@
         2. View Students
         3. Manage Assignments
         4. View Course Info
+                CS301: DATA STRUCTURES
+                # of Students Enrolled: 0
+                # of Assignments: 0
+                Average Course Grade: 100.0
         5. Go Back
 
 - View Reports
