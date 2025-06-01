@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.app.controllers.ReportController"
+      spacing="15" alignment="CENTER" prefWidth="600" prefHeight="400"
+      style="-fx-padding: 30;">
+    
+    <Label text="Generate Reports" style="-fx-font-size: 24px;"/>
+
+    <Button text="1. Generate Student Report" onAction="#handleStudentReport" prefWidth="300"/>
+    <Button text="2. Generate Course Report" onAction="#handleCourseReport" prefWidth="300"/>
+    <Button text="Back to Menu" onAction="#handleBack" prefWidth="300"/>
+
+</VBox>
+

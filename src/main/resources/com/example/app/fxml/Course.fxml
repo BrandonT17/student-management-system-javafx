@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.app.controllers.CourseController"
+      spacing="15" alignment="CENTER" prefWidth="600" prefHeight="400"
+      style="-fx-padding: 30;">
+
+    <Label text="Manage Courses" style="-fx-font-size: 24px;"/>
+
+    <Button text="1. Add Course" onAction="#handleAddCourse" prefWidth="250"/>
+    <Button text="2. Select Course" onAction="#handleSelectCourse" prefWidth="250"/>
+    <Button text="3. View All Courses" onAction="#handleViewAllCourses" prefWidth="250"/>
+    <Button text="4. Remove Course" onAction="#handleRemoveCourse" prefWidth="250"/>
+    <Button text="5. Go Back" onAction="#handleBack" prefWidth="250"/>
+
+</VBox>

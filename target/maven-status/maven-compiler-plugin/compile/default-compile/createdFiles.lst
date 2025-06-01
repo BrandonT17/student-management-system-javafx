@@ -1,0 +1,11 @@
+com/example/app/controllers/MainGUIController.class
+com/example/app/data/StudentRepository.class
+com/example/app/controllers/ReportController.class
+com/example/app/data/AssignmentRepository.class
+com/example/app/models/Student.class
+com/example/app/controllers/CourseController.class
+com/example/app/data/CourseRepository.class
+com/example/app/MainApp.class
+com/example/app/controllers/StudentController.class
+com/example/app/models/Course.class
+com/example/app/models/Assignment.class
